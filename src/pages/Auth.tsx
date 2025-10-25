@@ -28,7 +28,7 @@ const Auth = () => {
     setIsLoading(true);
     
     setTimeout(() => {
-      toast({ title: "Account created!", description: "Welcome to Urban Vogue" });
+      toast({ title: "Account created!", description: "Welcome to SnapMart" });
       navigate("/home");
       setIsLoading(false);
     }, 1000);
@@ -43,10 +43,10 @@ const Auth = () => {
         className="w-full max-w-md"
       >
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-2">
-            Urban<span className="text-accent">Vogue</span>
+          <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            SnapMart
           </h1>
-          <p className="text-muted-foreground">Premium Men's Fashion</p>
+          <p className="text-muted-foreground">Your Ultimate Shopping Destination</p>
         </div>
 
         <Card>

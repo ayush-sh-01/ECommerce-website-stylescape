@@ -28,10 +28,10 @@ const Home = () => {
               transition={{ duration: 0.6 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6">
-                Define Your Style
+                Shop Smart, Shop Fast
               </h1>
               <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8">
-                Premium men's fashion for the modern lifestyle
+                Your ultimate destination for premium men's fashion
               </p>
               <Link to="/shop">
                 <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8">

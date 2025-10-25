@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">
-              Urban<span className="text-accent">Vogue</span>
+            <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-primary-foreground to-accent bg-clip-text text-transparent">
+              SnapMart
             </h3>
             <p className="text-sm opacity-80">
-              Premium men's fashion for the modern lifestyle. Quality, style, and comfort.
+              Your ultimate destination for premium men's fashion. Fast, reliable, and always trendy.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm opacity-80">
-          <p>&copy; 2025 Urban Vogue. All rights reserved.</p>
+          <p>&copy; 2025 SnapMart. All rights reserved.</p>
         </div>
       </div>
     </footer>

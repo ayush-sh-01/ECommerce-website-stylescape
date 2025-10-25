@@ -15,9 +15,9 @@ const About = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
             >
-              <h1 className="text-5xl font-bold mb-6">About Urban Vogue</h1>
+              <h1 className="text-5xl font-bold mb-6">About SnapMart</h1>
               <p className="text-xl max-w-2xl mx-auto opacity-90">
-                Redefining men's fashion with style, quality, and sophistication
+                Your ultimate destination for modern men's fashion
               </p>
             </motion.div>
           </div>
@@ -34,15 +34,15 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground text-lg">
                 <p>
-                  Urban Vogue was founded with a simple mission: to provide modern men with
+                  SnapMart was founded with a simple mission: to provide modern men with
                   premium fashion that combines style, comfort, and quality. We believe that
-                  every man deserves to look and feel his best.
+                  shopping should be fast, reliable, and exciting.
                 </p>
                 <p>
-                  From carefully curated collections to exceptional customer service, we're
-                  committed to delivering an unparalleled shopping experience. Our team works
-                  tirelessly to source the finest materials and create designs that stand the
-                  test of time.
+                  From carefully curated collections to lightning-fast delivery, we're
+                  committed to delivering an exceptional shopping experience. Our team works
+                  tirelessly to bring you the latest trends and timeless classics that fit
+                  your lifestyle perfectly.
                 </p>
               </div>
             </motion.div>

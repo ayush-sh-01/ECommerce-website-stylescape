@@ -23,8 +23,8 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link to="/home" className="text-2xl font-bold">
-            Urban<span className="text-accent">Vogue</span>
+          <Link to="/home" className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            SnapMart
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
