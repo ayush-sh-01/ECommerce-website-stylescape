@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Minus, Plus, Trash2, ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 
 const Cart = () => {
   const { cart, removeFromCart, updateQuantity, totalPrice, clearCart } = useCart();
+  const navigate = useNavigate();
 
   if (cart.length === 0) {
     return (
@@ -131,6 +132,7 @@ const Cart = () => {
                 <Button
                   className="w-full bg-accent hover:bg-accent/90 text-accent-foreground mb-3"
                   size="lg"
+                  onClick={() => navigate("/checkout")}
                 >
                   Proceed to Checkout
                 </Button>
