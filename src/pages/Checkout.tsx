@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -29,6 +29,12 @@ const Checkout = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  useEffect(() => {
+    if (cart.length === 0) {
+      navigate("/cart");
+    }
+  }, [cart.length, navigate]);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
@@ -40,7 +46,6 @@ const Checkout = () => {
   };
 
   if (cart.length === 0) {
-    navigate("/cart");
     return null;
   }
 

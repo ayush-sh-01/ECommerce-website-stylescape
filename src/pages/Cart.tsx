@@ -70,7 +70,7 @@ const Cart = () => {
                       <Button
                         variant="ghost"
                         size="icon"
-                        onClick={() => removeFromCart(item.id)}
+                        onClick={() => removeFromCart(item.id, item.size)}
                       >
                         <Trash2 className="h-4 w-4" />
                       </Button>
@@ -80,7 +80,7 @@ const Cart = () => {
                           variant="ghost"
                           size="icon"
                           className="h-8 w-8"
-                          onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                          onClick={() => updateQuantity(item.id, item.quantity - 1, item.size)}
                         >
                           <Minus className="h-3 w-3" />
                         </Button>
@@ -89,7 +89,7 @@ const Cart = () => {
                           variant="ghost"
                           size="icon"
                           className="h-8 w-8"
-                          onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                          onClick={() => updateQuantity(item.id, item.quantity + 1, item.size)}
                         >
                           <Plus className="h-3 w-3" />
                         </Button>
