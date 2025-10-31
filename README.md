@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+E-Commerce Website – Stylescape
+📖 Project Overview
 
-## Project info
+This project is a modern e-commerce web application designed to provide a fast, responsive, and user-friendly shopping experience.
+It is developed using React, Vite, and TypeScript, with styling handled by Tailwind CSS and shadcn-ui components for a clean and professional interface.
 
-**URL**: https://lovable.dev/projects/5cb3c69d-9dcf-4ff3-9bed-108e77891e0e
+The website allows easy browsing of products with a smooth user interface and optimized performance.
 
-## How can I edit this code?
+🌐 Live Demo
 
-There are several ways of editing your application.
+URL: Click here to open the live project
 
-**Use Lovable**
+(Optional: Replace this link with your custom domain or deployment link once hosted on Vercel, Netlify, etc.)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5cb3c69d-9dcf-4ff3-9bed-108e77891e0e) and start prompting.
+🧩 Tech Stack
+Technology	Purpose
+⚛️ React	Core library for building interactive and component-based user interfaces.
+⚡ Vite	Development tool and build optimizer that provides ultra-fast hot reloading.
+🧠 TypeScript	Superset of JavaScript providing static typing and better code reliability.
+🎨 Tailwind CSS	Utility-first CSS framework for responsive and modern styling.
+💎 shadcn-ui	Pre-built, accessible UI component library that works seamlessly with Tailwind CSS.
+⚙️ How to Run the Project Locally
 
-Changes made via Lovable will be committed automatically to this repo.
+Before starting, make sure Node.js and npm are installed.
+You can install Node.js using nvm
+.
 
-**Use your preferred IDE**
+Then follow these steps:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install project dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+After running the last command, open the local URL (e.g., http://localhost:5173
+) to preview the project in your browser.
 
-**Use GitHub Codespaces**
+💻 Editing the Code
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You can edit this project using any modern IDE such as VS Code, IntelliJ, or WebStorm.
 
-## What technologies are used for this project?
+To make quick updates directly on GitHub:
 
-This project is built with:
+Navigate to the desired file.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Click the ✏️ Edit icon.
 
-## How can I deploy this project?
+Make your changes and commit them.
 
-Simply open [Lovable](https://lovable.dev/projects/5cb3c69d-9dcf-4ff3-9bed-108e77891e0e) and click on Share -> Publish.
+Alternatively, you can use GitHub Codespaces for a cloud-based editing experience:
 
-## Can I connect a custom domain to my Lovable project?
+Open your repository.
 
-Yes, you can!
+Click on the Code button → Codespaces tab → New Codespace.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Start coding directly in the browser.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🚀 Deployment
+
+This project can be easily deployed using any modern hosting platform like Vercel, Netlify, or GitHub Pages.
+
+To deploy:
+
+Build the project:
+
+npm run build
+
+
+Deploy the generated dist/ folder to your preferred hosting service.
+
+🌍 Custom Domain Setup (Optional)
+
+You can connect your own domain name (for example: www.stylescape.shop) by configuring it in your hosting provider’s domain settings.
+Most platforms (like Vercel or Netlify) allow custom domain connections with automatic SSL (HTTPS).
+
+👨‍💻 Author
+
+Ayush Sharma
+B.Tech CSE (AI with IBM)
+GitHub: ayush-sh-01
